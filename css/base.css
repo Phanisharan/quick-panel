@@ -1,0 +1,60 @@
+/* Full page */
+body { 
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2d3e50;
+    font-family: Arial, sans-serif;
+}
+
+/* Main outer container */
+.main-container {
+    width: 350px;
+    height: 700px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Inner container divided into sections */
+.inner-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    flex: 2; /* Top section  */
+    background: rgba(255, 255, 255, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.middle {
+    flex: 5; /* Middle section */
+    background: rgba(255, 255, 255, 0.08);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.bottom {
+    flex: 1.5; /* Bottom section */
+    background: rgba(255, 255, 255, 0.12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
