@@ -1,4 +1,3 @@
-```
 # Phone Quick Panel UI 
 
 This project is a simple **Quick Panel UI layout** (like in mobile phones) built with **HTML and CSS and JS**.  
@@ -10,6 +9,7 @@ Each section has its own CSS file to keep things organized, just like in real-wo
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/your-username/quick-panel-ui.git
 cd quick-panel-ui
@@ -29,14 +29,6 @@ cd quick-panel-ui
 * **Middle Section** → (quick actions / controls)
 * **Bottom Section** → (notifications or extra options)
 * Fully responsive structure (can be improved later)
-  
----
-
-## 🛠️ Future Improvements
-
-* Add icons for quick actions
-* Responsive behavior for different screen sizes
-* Dark/Light mode toggle
   
 ---
 
