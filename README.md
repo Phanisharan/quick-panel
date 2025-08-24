@@ -1,4 +1,4 @@
-```markdown
+```
 # Phone Quick Panel UI 
 
 This project is a simple **Quick Panel UI layout** (like in mobile phones) built with **HTML and CSS and JS**.  
