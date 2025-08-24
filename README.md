@@ -11,8 +11,8 @@ Each section has its own CSS file to keep things organized, just like in real-wo
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/quick-panel-ui.git
-cd quick-panel-ui
+git clone https://github.com/Phanisharan/quick-panel.git
+cd quick-panel
 ````
 
 ### 2. Run the Project
