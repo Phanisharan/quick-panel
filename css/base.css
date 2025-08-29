@@ -39,18 +39,20 @@ body {
     font-size: 20px;
 }
 
+/* Middle section */
+
 .middle {
-    flex: 5; /* Middle section */
+    flex: 5; 
     background: rgba(255, 255, 255, 0.08);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
     color: white;
     font-size: 20px;
 }
 
+ /* Bottom section */
+
 .bottom {
-    flex: 1.5; /* Bottom section */
+    flex: 1.5;
     background: rgba(255, 255, 255, 0.12);
     display: flex;
     justify-content: center;

@@ -1,0 +1,41 @@
+.middile-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.wifi-call,.wifi{
+   
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(90, 88, 88);
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+.wifi-call:hover,.wifi:hover{
+        background-color: rgb(116, 114, 114);
+}
+
+.space-middle{
+    
+    width: 8px;
+   
+}
+
+.wifi-call-name{
+    
+    align-items: center;
+    margin-left: 4px;
+    justify-content: left;
+    
+}
