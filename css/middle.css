@@ -140,19 +140,19 @@
 .middle.dark-mode .quick-panel-button,
 .middle.dark-mode .wifi-call,
 .middle.dark-mode .wifi {
-    background-color: #3a3a3a; /* Dark grey for inactive buttons in dark mode */
-    color: white; /* White icons for inactive buttons in dark mode */
+    background-color: #3a3a3a; 
+    color: white; 
 }
 
 .middle.dark-mode .quick-panel-button.active,
 .middle.dark-mode .wifi-call.active,
 .middle.dark-mode .wifi.active {
-    background-color: #2196F3; /* Keep active color consistent */
-    color: white; /* Keep active icon color consistent */
+    background-color: #2196F3; 
+    color: white; 
 }
 
 .middle.dark-mode .quick-panel-button i,
 .middle.dark-mode .wifi-call i,
 .middle.dark-mode .wifi i {
-    color: white; /* Make sure icons are white in dark mode */
+    color: white; 
 }
