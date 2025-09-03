@@ -18,13 +18,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    background-color: rgb(90, 88, 88);
+    color: rgb(139, 136, 136);
+    background-color: white;
     cursor: pointer;
     transition: background-color 0.15s;
 }
 .wifi-call:hover,.wifi:hover,.quick-panel-button:hover{
-        background-color: rgb(116, 114, 114);
+        background-color: rgb(173, 166, 166);
+        color: white;
 }
 
 .space-middle{
@@ -62,8 +63,8 @@
     height: 50px;
     border: none;
     border-radius: 50%;
-    background-color: rgb(90, 88, 88);
-    color: white;
+    background-color: white;
+    color: rgb(139, 136, 136);
     transition: background-color 0.15s;
     cursor: pointer;
     display: flex;
@@ -121,9 +122,11 @@
 
 
 .middle.dark-mode  {
-    background-color: rgb(27, 26, 26);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
+
+
 
 .middle.dark-mode .name {
     color: white;
@@ -131,4 +134,25 @@
 
 .middle.dark-mode #arrow-size{
     color: white;
+}
+
+
+.middle.dark-mode .quick-panel-button,
+.middle.dark-mode .wifi-call,
+.middle.dark-mode .wifi {
+    background-color: #3a3a3a; /* Dark grey for inactive buttons in dark mode */
+    color: white; /* White icons for inactive buttons in dark mode */
+}
+
+.middle.dark-mode .quick-panel-button.active,
+.middle.dark-mode .wifi-call.active,
+.middle.dark-mode .wifi.active {
+    background-color: #2196F3; /* Keep active color consistent */
+    color: white; /* Keep active icon color consistent */
+}
+
+.middle.dark-mode .quick-panel-button i,
+.middle.dark-mode .wifi-call i,
+.middle.dark-mode .wifi i {
+    color: white; /* Make sure icons are white in dark mode */
 }
