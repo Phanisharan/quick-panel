@@ -1,0 +1,158 @@
+.middile-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+
+}
+
+.wifi-call,.wifi{
+   
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(139, 136, 136);
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+.wifi-call:hover,.wifi:hover,.quick-panel-button:hover{
+        background-color: rgb(173, 166, 166);
+        color: white;
+}
+
+.space-middle{
+    width: 9px;
+   
+}
+
+.wifi-call-name{
+    
+    align-items: center;
+    margin-left: 4px;
+    justify-content: left;
+    
+}
+
+.middle-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.quick-panel-item{
+    display: flex;
+    flex-direction: column;
+    margin: 0 9px;
+    align-items: center;
+    width: 80px;
+    text-align: center;
+}
+
+.quick-panel-button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(139, 136, 136);
+    transition: background-color 0.15s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon-size
+{
+    font-size: 25px;  
+ 
+}
+
+.name{
+    font-size: 12px;
+    color: rgb(1, 1, 1);
+    text-decoration-line: none;
+    margin-top: 5px;
+    white-space: normal;
+}
+
+.name-container{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin: 0;
+}
+
+#arrow-size
+{
+    font-size: 12px;
+    margin-left: 4px;
+    color: black;
+}
+
+.quick-panel-button.active,
+.wifi-call.active,
+.wifi.active {
+    background-color: #2196F3; 
+    color: white; 
+}
+
+
+.quick-panel-button.active:hover,
+.wifi-call.active:hover,
+.wifi.active:hover {
+    background-color: #1976D2; 
+}
+
+.quick-panel-button.active i,
+.wifi-call.active i,
+.wifi.active i {
+    color: white; 
+}
+
+
+.middle.dark-mode  {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+
+.middle.dark-mode .name {
+    color: white;
+}
+
+.middle.dark-mode #arrow-size{
+    color: white;
+}
+
+
+.middle.dark-mode .quick-panel-button,
+.middle.dark-mode .wifi-call,
+.middle.dark-mode .wifi {
+    background-color: #3a3a3a; 
+    color: white; 
+}
+
+.middle.dark-mode .quick-panel-button.active,
+.middle.dark-mode .wifi-call.active,
+.middle.dark-mode .wifi.active {
+    background-color: #2196F3; 
+    color: white; 
+}
+
+.middle.dark-mode .quick-panel-button i,
+.middle.dark-mode .wifi-call i,
+.middle.dark-mode .wifi i {
+    color: white; 
+}
