@@ -12,6 +12,8 @@
     <script src="js/middle.js"></script>
     <script src="js/bottom.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
   <div class="main-container">
@@ -28,8 +30,24 @@
 
         <!-- Bottom Section -->
         <div class="bottom">
-            Bottom Section
-            
+          <div class="inner_div">
+            <!-- Brightness -->
+            <div class="brightness">
+              <i class="fa-solid fa-sun brightness-icon"></i>
+              <div class="bar">
+                <input type="range" id="bar" min="0" max="100" value="50">
+                <div class="bar-fill" id="barFill"></div>
+            </div>
+              <div class="auto">A</div>
+          </div>
+
+            <!-- Icons -->
+            <div class="icons">
+              <div class="icon"><i class="fa-solid fa-user"></i></div>
+              <div class="icon"><i class="material-icons">settings</i></div>
+              <div class="icon"><i class="material-icons">search</i></div>
+              <div class="icon"><i class="fa-solid fa-power-off"></i></div>
+            </div>
         </div>
     </div>
   </div>
