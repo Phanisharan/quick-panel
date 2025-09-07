@@ -2,4 +2,77 @@
     background-color: rgba(0, 0, 0, 0.5);
     
 }
+.top.dark-mode .time-container,
+.top.dark-mode #icons,
+.top.dark-mode .sim-name,
+.top.dark-mode .battery,
+.top.dark-mode .daily-date,
+.top.dark-mode .data-usage,
+.top.dark-mode #arrow
+{
+  color: white;
+
+}
+.top-container{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.time-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  height: 50px;
+}
+.daily-time{
+  display: flex;
+}
+.status-bar{
+  justify-content: right;
+  display: flex;
+  margin-top: 30px;
+  font-size: 20px;  
+}
+.status-bar-icons
+{
+  display: flex;
+  color: white;
+  gap: 1px;  
+
+}
+#icons{
+  font-size: 15px;
+  color: black;
+  
+}
+.edit-icon{
+  margin-bottom: 30px;
+}
+.sim-name{
+  font-size: 10px;
+  margin-top: 6px;
+  color: black;   
+}
+.battery{
+  font-size: 10px;
+  margin-top: 5px;
+  color: black;
+}
+
+.daily-date{
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: black;  
+}
+.data-usage{
+  margin-top: 0px;
+  display: flex;
+  font-size: 10px;
+ color: black;
+}
+#arrow{
+  color: black;
+  font-size: 15px;
+}
 
