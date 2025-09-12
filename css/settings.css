@@ -1,9 +1,6 @@
 
 .settings-titile{
     display: flex;
-    /* background-color: lightblue; */
-    padding: 15px;
-    align-items: center;
     border-bottom: solid;
     border-width: 1px;
     border-color: grey;
@@ -38,21 +35,70 @@
 #arrow-size{
     font-size: large;
     display: flex;
-    color: white;
+    
+}
+
+#search-size,#arrow-size{
+  color: white;
 }
 
 
 .settings-options,.selecting-options{
-    
     padding-top: 25px ;
     padding-left: 18px;
     padding-right: 15px;
     
 } 
 
+.settings-options2
+{
+  border-top-left-radius:8px ;
+  border-top-right-radius:8px ;
 
-.settings-options{
+}
+
+.option2-2{
   display: flex;
+  justify-content: space-between;
+}
+.options-icons2-2{
+  font-size: small;
+  color: rgb(120, 119, 119);
+  /* background-color: rgb(83, 105, 105); */
+}
+
+.settings-options2-1,.settings-options2,.settings-options2-2,.settings-options2-3{
+  background-color: white;
+  margin-left: 18px;
+  margin-right: 16px;
+  padding-left: 12px;
+  padding-top: 20px;
+  padding-right: 12px;
+  padding-bottom: 13px;
+}
+
+.settings-options2-3{
+  margin-top: 12px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 27px;
+}
+
+.settings-options2-2{
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+
+.settings-options2-1{
+  border-bottom: solid;
+  border-color: rgb(120, 119, 119);
+  border-width: 1px;
+}
+
+.settings-options, .settings-options2,.settings-options2-1,.settings-options2-3{
+  display: flex;
+
 }
 
 .selecting-option{
@@ -72,9 +118,19 @@
   justify-content: center;
 }
 
+.option2{
+  margin-left: 12px;
+  /* background-color: white; */
+  
+}
+
 .name-style{
     display: flex;
     flex: 1;
+}
+
+.name-style2{
+  display: flex;
 }
 
 #icon{
@@ -86,11 +142,24 @@
     
 }
 
-.sub-name{
+#icon2{
+  margin-top: 11px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.left-buttons{
+  border: none;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.sub-name,.sub-name2{
   margin-top: 5px;
-  color: rgb(152, 150, 150);
+  color: rgb(120, 119, 119);
   font-size: medium;
 }
+
 
 
 .name{
@@ -99,6 +168,11 @@
     flex: 1;
     color: white;
     margin-bottom: 3px;
+}
+
+.name2{
+  font-size: 18px;
+  margin-bottom: 3px;
 }
 
 input[type=range] {
@@ -212,3 +286,27 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%; 
 }
+
+/* main settings page */
+
+.settings-name2{
+    font-size: 40px;
+    color: black;
+}
+
+.settings-titile2 , .settings-titile{
+   
+    padding: 15px;
+    align-items: center;
+  
+}
+
+#search-size{
+  color: black;
+}
+.search-button{
+    padding-top: 40px;
+    display: flex;
+    justify-content: right;
+}
+

@@ -58,7 +58,7 @@ cursor: pointer;
   background-color: rgb(136, 130, 130);
   color: rosybrown; 
 }
-.dark-mode .icons{
+.dark-mode .icons , .dark-mode #anchor-tag{
   color: white;
 }
 .main-container {
@@ -66,3 +66,7 @@ cursor: pointer;
 }
 
 
+#anchor-tag{
+  text-decoration-line: none;
+  color: rgb(43, 39, 39);
+}
