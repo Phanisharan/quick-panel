@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Panel </title>
+    <link rel="stylesheet" href="css/sounds.css">
+    <link rel="stylesheet" href="css/settings.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/middle.js"></script>
+    <script src="js/bottom.js"></script>
+    <script src="js/darkmode.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+</head>
+<body>
+  <div class="main-container">
+
+    <!-- sittings title -->
+      <div class="settings-titile">
+          <div class="back-arrow">
+            <a href="index.html" class="line">
+            <button class="back" >
+            <i class="material-icons" id="arrow-size">arrow_back_ios</i>         
+            </button>
+            </a>
+          </div>
+          <div>
+            <span class="settings-name">Sounds & Vibrations</span>
+          </div>
+      </div>
+      
+      <!-- vibration settings options -->
+    <div class="inner-container">
+
+      <!-- option 1 -->
+      <div class="settings-options">
+
+          <div class="options-icons">
+              <div class="icons-container">
+              <i class="material-icons" id="icon" >music_note</i>
+              </div>
+          </div>
+          <div class="option">
+            <div class="name-style">
+              <span class="name">Media volume</span>
+            </div>
+            <div class="range-style">
+              <input type="range" min="0" max="100" value="50"
+                oninput="this.style.setProperty('--value', this.value + '%')">
+            </div>
+          </div>
+
+      </div>
+      <!-- option 2 -->
+      <div class="settings-options">
+
+          <div class="options-icons">
+              <div class="icons-container">
+              <i class="material-icons" id="icon">notifications_off</i>
+              </div>
+          </div>
+          <div class="option">
+            <div class="name-style">
+              <span class="name">Ring volume</span>
+            </div>
+            <div class="range-style">
+              <input type="range" min="0" max="100" value="50"
+                oninput="this.style.setProperty('--value', this.value + '%')">
+            </div>
+          </div>
+          
+      </div>
+
+      <!-- option 3 -->
+        <div class="settings-options">
+
+          <div class="options-icons">
+              <div class="icons-container">
+              <i class="material-symbols-outlined" id="icon">notification_sound</i>
+              </div>
+          </div>
+          <div class="option">
+            <div class="name-style">
+              <span class="name">Notification volume</span>
+            </div>
+            <div class="range-style">
+              <input type="range" min="0" max="100" value="50"
+                oninput="this.style.setProperty('--value', this.value + '%')">
+            </div>
+          </div>
+          
+      </div>
+
+      <!-- option 4 -->
+      <div class="settings-options">
+
+          <div class="options-icons">
+              <div class="icons-container">
+              <i class="material-symbols-outlined" id="icon">alarm</i>
+              </div>
+          </div>
+          <div class="option">
+            <div class="name-style">
+              <span class="name">Media Volume</span>
+            </div>
+            <div class="range-style">
+              <input type="range" min="0" max="100" value="50"
+                oninput="this.style.setProperty('--value', this.value + '%')">
+            </div>
+          </div>
+          
+      </div>
+
+      <!--selecting-option 1  -->
+      <div class="selecting-options">
+           <div class="name-style">
+              <span class="name">Use Volume buttons to adjust</span>
+            </div>
+            <div class="range-style">
+               <span class="sub-name">Media</span>
+            </div>
+      </div>
+
+      <!--selecting-option 2 -->
+      <div class="selecting-options">
+           <div class="name-style">
+              <span class="name">Volume adjustment per app</span>
+            </div>
+            <div class="range-style">
+               <span class="sub-name">Off</span>
+            </div>
+      </div>
+
+        <!--selecting-option 3  -->
+        <div class="selecting-options">
+            <div class="name-style">
+                <span class="name">Vibrate for incoming calls</span>
+              </div>
+              <div class="range-style">
+                <span class="sub-name">Never vibrate</span>
+        </div>
+
+      </div>
+
+
+      <!-- switch container -->
+       <div class="selecting-option">
+
+        <div>
+          <span class="name">Vibrate for notifications</span>
+        </div>
+          <div>
+            <label class="switch">
+            <input type="checkbox" checked> 
+            <span class="slider round"></span>
+          </label>
+          </div>
+        </div>
+
+
+          <div class="selecting-options">
+              <div class="name-style">
+                    <span class="name">Do Not Disturb </span>
+              </div>
+              <div class="range-style">
+                <span class="sub-name">Off</span>
+          </div>
+
+        </div>
+
+          <div class="selecting-options">
+              <div class="name-style">
+                    <span class="name">Media </span>
+              </div>
+              <div class="range-style">
+                <span class="sub-name">Hide player</span>
+          </div>
+        </div>
+          <div class="selecting-options">
+              <div class="name-style">
+                    <span class="name">SIM 1 Phone ringtone </span>
+              </div>
+              <div class="range-style">
+                <span class="sub-name">[iSongs.info] aaj dil shayarana</span>
+          </div>
+
+        </div>
+          <div class="selecting-options">
+              <div class="name-style">
+                    <span class="name">SIM 2 Phone ringtone </span>
+              </div>
+              <div class="range-style">
+                <span class="sub-name">iphone ringtone mix.mp3</span>
+          </div>
+
+        </div>        
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
