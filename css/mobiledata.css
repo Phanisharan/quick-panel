@@ -1,0 +1,124 @@
+body { 
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2d3e50;
+  font-family: Arial, sans-serif;
+}
+
+.main-container {
+  width: 300px;
+  height: 700px;
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.inner-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#mobile {
+  margin-left: 25px;
+  font-size: 20px;
+  margin-top: 30px;
+  color: black;
+}
+
+.data-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 7px;
+  margin-top: 20px;
+  height: 240px;
+  width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.sim-card {
+  background-color: rgba(240, 234, 234, 0.963);
+  border-radius: 12px;
+  padding: 12px;
+  flex: 1;
+  transition: 0.3s;
+}
+
+.sim-card.active {
+  background: #4f63d674;
+ 
+}
+
+.sim-card h4 {
+  font-size: 12px;
+  margin: 0 0 10px 5px;
+}
+
+.data {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.gb {
+  font-size: 14px;
+}
+
+.used {
+  font-size: 12px;
+}
+
+.highlight {
+  color: #cce0ff;
+}
+
+.more {
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #4f63d6;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.radio-container {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  margin-top: 12px;
+ 
+
+}
+
+.radio-container input[type="radio"] {
+  transform: scale(1.3);
+}
+
+#radio-jio,#radio-vi{
+  display: flex;
+}
+
+.mobile-container{ 
+    background-color: rgba(240, 234, 234, 0.7);
+    margin-top: 130px;
+    padding-bottom: 20px;
+    margin-left: 18px;
+    margin-right: 18px;
+    border-radius: 15px;
+}
+
+.more-settings{
+  display: flex;
+  padding-right: 31px;
+  justify-content: right;
+
+}
