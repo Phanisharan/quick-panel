@@ -11,7 +11,6 @@ body {
 .main-container {
   width: 300px;
   height: 700px;
-  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(12px);
   border-radius: 20px;
   display: flex;
@@ -24,8 +23,7 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  color: white;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 #mobile {
@@ -48,7 +46,7 @@ body {
 }
 
 .sim-card {
-  background-color: #444;
+  background-color: rgba(240, 234, 234, 0.963);
   border-radius: 12px;
   padding: 12px;
   flex: 1;
@@ -56,7 +54,7 @@ body {
 }
 
 .sim-card.active {
-  background: #4f63d6;
+  background: #4f63d674;
  
 }
 
@@ -109,8 +107,8 @@ body {
   display: flex;
 }
 
-.mobile-container{
-    background-color: rgb(184, 178, 178);
+.mobile-container{ 
+    background-color: rgba(240, 234, 234, 0.7);
     margin-top: 130px;
     padding-bottom: 20px;
     margin-left: 18px;
