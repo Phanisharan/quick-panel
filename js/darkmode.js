@@ -41,7 +41,8 @@ window.addEventListener("DOMContentLoaded", () => {
     document.querySelector(".bottom")?.classList.add("dark-mode");
     document.querySelector(".main-container")?.classList.add("dark-mode");
     document.querySelector(".inner-container")?.classList.add("dark-mode");
-    
+    document.querySelector(".inner_div")?.classList.add("dark-mode");
+
 
     document.querySelectorAll("button").forEach((btn) => {
       if (btn.querySelector("i")?.textContent.trim() === "brightness_4") {
