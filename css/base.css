@@ -60,5 +60,32 @@ body {
     font-size: 20px;
 }
 
+.dark-mode {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    color: white !important;
+}
+
+/* Ensure text elements are white in dark mode */
+.dark-mode .name,
+.dark-mode #arrow-size,
+.dark-mode .sub-name {
+    color: white !important;
+}
+
+/* Buttons and panels in dark mode */
+.dark-mode .quick-panel-button,
+.dark-mode .wifi-call,
+.dark-mode .wifi {
+    background-color: #3a3a3a !important;
+    color: white !important;
+}
+
+/* Active state in dark mode */
+.dark-mode .quick-panel-button.active,
+.dark-mode .wifi-call.active,
+.dark-mode .wifi.active {
+    background-color: #2196F3 !important;
+    color: white !important;
+}
 
 
