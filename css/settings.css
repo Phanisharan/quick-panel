@@ -1,18 +1,32 @@
 
 .settings-titile{
     display: flex;
-    /* background-color: lightblue; */
-    padding: 15px;
-    align-items: center;
     border-bottom: solid;
     border-width: 1px;
     border-color: grey;
+    
+}
+
+.dark-mode .settings-titile
+,.dark-mode .settings-titile2
+{
+      background-color: black;
+     
+}
+
+.dark-mode .settings-options2,
+.dark-mode .settings-options2-1,
+.dark-mode .settings-options2-2,
+.dark-mode .settings-options2-3,
+.dark-mode .settings-options2-4
+{
+  background-color: #161F28;
 }
 
 .settings-name{
     /* background-color: lightcoral; */
     font-size: larger;
-    color: white;
+    color: black;
 }
 
 .back,.line{
@@ -38,21 +52,75 @@
 #arrow-size{
     font-size: large;
     display: flex;
-    color: white;
+  
+    
+}
+
+#search-size,#arrow-size{
+  color: black;
+
 }
 
 
 .settings-options,.selecting-options{
-    
     padding-top: 25px ;
     padding-left: 18px;
     padding-right: 15px;
     
 } 
 
+.settings-options2
+{
+  border-top-left-radius:8px ;
+  border-top-right-radius:8px ;
 
-.settings-options{
+}
+
+.option2-2{
   display: flex;
+  justify-content: space-between;
+}
+.options-icons2-2{
+  font-size: small;
+  color: rgb(120, 119, 119);
+  /* background-color: rgb(83, 105, 105); */
+}
+
+.settings-options2-1,.settings-options2,.settings-options2-2,.settings-options2-3,.settings-options2-4{
+  background-color: white;
+  margin-left: 18px;
+  margin-right: 16px;
+  padding-left: 12px;
+  padding-top: 20px;
+  padding-right: 12px;
+  padding-bottom: 13px;
+}
+
+.settings-options2-3,.settings-options2-4{
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 20px;
+}
+
+.settings-options2-3{
+  margin-top: 12px;
+}
+
+.settings-options2-2{
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+
+.settings-options2-1{
+  border-bottom: solid;
+  border-color: rgb(120, 119, 119);
+  border-width: 1px;
+}
+
+.settings-options, .settings-options2,.settings-options2-1,.settings-options2-3,.settings-options2-4{
+  display: flex;
+
 }
 
 .selecting-option{
@@ -72,33 +140,73 @@
   justify-content: center;
 }
 
+.option2{
+  margin-left: 12px;
+  /* background-color: white; */
+  
+}
+
 .name-style{
     display: flex;
     flex: 1;
 }
 
-#icon{
-    font-size: xx-large;
-    color: rgb(152, 150, 150);
-    align-items: center;
-    margin-top: 8px;
-    font-size: 27px;
-    
+.name-style2{
+  display: flex;
 }
 
-.sub-name{
+
+
+#icon{
+    
+    color: black;
+    align-items: center;
+    margin-top: 8px;
+    line-height: 1 ; 
+    font-size: 27px;
+    vertical-align: middle;
+}
+
+#icon2-1{
+  font-size: 22px;
+  
+}
+#icon2,#icon2-1{
+  margin-top: 11px;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 7px;
+}
+
+.left-buttons{
+  border: none;
+  align-items: center;
+  border-radius: 50%;
+  width: 33px;
+  background-color: #98b0f7;
+  
+  
+}
+
+.sub-name,.sub-name2{
   margin-top: 5px;
-  color: rgb(152, 150, 150);
+  color: rgb(104, 104, 104);
   font-size: medium;
 }
+
 
 
 .name{
     font-size: 18px;
     display: flex;
     flex: 1;
-    color: white;
+    color: black;
     margin-bottom: 3px;
+}
+
+.name2{
+  font-size: 18px;
+  margin-bottom: 3px;
 }
 
 input[type=range] {
@@ -110,7 +218,7 @@ input[type=range] {
 
 input[type=range]::-webkit-slider-runnable-track {
   height: 3px;
-  background: linear-gradient(to right, #aabfff var(--value, 50%), #747373 var(--value, 50%));
+  background: linear-gradient(to right, #90a8f1 var(--value, 50%), #747373 var(--value, 50%));
   border-radius: 2px;
 }
 input[type=range]::-webkit-slider-thumb {
@@ -118,7 +226,7 @@ input[type=range]::-webkit-slider-thumb {
   appearance: none;
   width: 14px;
   height: 14px;
-  background: #aabfff;
+  background: #90a8f1;
   border-radius: 50%;
   cursor: pointer;
   margin-top: -6px; 
@@ -212,3 +320,29 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%; 
 }
+
+/* main settings page */
+
+.settings-name2{
+    font-size: 40px;
+    color: black;
+}
+
+.settings-titile2 , .settings-titile{
+   
+    padding: 15px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7);
+
+  
+}
+
+#search-size{
+  color: black;
+}
+.search-button{
+    padding-top: 40px;
+    display: flex;
+    justify-content: right;
+}
+

@@ -13,7 +13,6 @@ body {
 .main-container {
     width: 350px;
     height: 700px;
-    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(12px);
     border-radius: 20px;
     display: flex;
@@ -27,6 +26,7 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
+    
 }
 
 .top {
@@ -68,7 +68,13 @@ body {
 /* Ensure text elements are white in dark mode */
 .dark-mode .name,
 .dark-mode #arrow-size,
-.dark-mode .sub-name {
+.dark-mode .sub-name,
+.dark-mode #icon,
+.dark-mode .settings-name,
+.dark-mode #mobile,
+.dark-mode .settings-name2,
+.dark-mode #search-size
+ {
     color: white !important;
 }
 
